@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OSTYK51102030
+D CONN BARRIER STRIP 2CIRC 0.374"
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf
+$ENDCMP
+#
+#End Doc Library

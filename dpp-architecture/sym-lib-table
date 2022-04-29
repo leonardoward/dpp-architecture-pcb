@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name "T-750311659")(type "KiCad")(uri "${KIPRJMOD}/Symbols/T-750311659.kicad_sym")(options "")(descr ""))
   (lib (name "J-OSTYK51102030")(type "KiCad")(uri "${KIPRJMOD}/Symbols/J-OSTYK51102030.kicad_sym")(options "")(descr ""))
+  (lib (name "Q-IRFU120NPBF")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Q-IRFU120NPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "C-2200uF-50V-20%")(type "KiCad")(uri "${KIPRJMOD}/Symbols/C-2200uF-50V-20%.kicad_sym")(options "")(descr ""))
+  (lib (name "C-47pF-0805-100V-5%")(type "KiCad")(uri "${KIPRJMOD}/Symbols/C-47pF-0805-100V-5%.kicad_sym")(options "")(descr ""))
 )

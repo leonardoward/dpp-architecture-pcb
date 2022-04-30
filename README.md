@@ -4,7 +4,7 @@
   <img src="./Images/pcb-02.jpg">
 </p>
 
-This PCB was design to test the DPP architecture used in MPPT designs. The software used to designed the PCB is Kicad 6.
+This PCB was designed to test the DPP architecture used in MPPT designs. The software used to designed the PCB is Kicad 6.
 
 The tests performed with this PCB will contribute to develop the project MultiMPPT, that is a low cost high efficiency MPPT with multiple inputs. For more information about the project check the following [link](https://hackaday.io/project/185092-multimppt).
 
@@ -52,8 +52,8 @@ Where:
 
 | Reference | Quantity |
 | ------------- | ------------- |
-| [PCB](https://www.pcbway.com/)  | 1 |
-| [2200µF 50V Aluminum Electrolytic Capacitors Radial](https://www.digikey.com/en/products/detail/cornell-dubilier-illinois-capacitor/228CKS050MQW/5411846?s=N4IgTCBcDa5gHAYQNIGUAMBWdBZAigOoC0AcgCIgC6AvkA)  | 2 |
+| [PCB](https://jlcpcb.com/)  | 1 |
+| [2200µF 50V Aluminum Electrolytic Capacitors Radial](https://www.digikey.com/en/products/detail/cornell-dubilier-illinois-capacitor/228CKS050MQW/5411846)  | 2 |
 | [1µF ±10% 25V Ceramic Capacitor X7R 0805](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724)  | 1 |
 | [47pF ±5% 100V Ceramic Capacitor C0G, NP0 0805](https://www.digikey.com/en/products/detail/kyocera-avx/08051A470JAT2A/563392)  | 1 |
 | [Diode Standard 100V 300mA (DC) SOD-123 1N4148W](https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371)  | 2 |

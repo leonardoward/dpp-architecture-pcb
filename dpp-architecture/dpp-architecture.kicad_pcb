@@ -1652,7 +1652,7 @@
   (gr_text "VCC" (at 129.54 104.14) (layer "F.SilkS") (tstamp f0accdc7-0a08-4e97-9c6b-b70fbcd2c9b6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "DPP Architecture Test 1.0\nMultiMPPT\nLeonardo Ward" (at 160.02 73.66) (layer "F.SilkS") (tstamp fac7ef4b-e76f-44ee-b6a0-75eab8ebe91b)
+  (gr_text "DPP Architecture Test v1.0\nMultiMPPT\nLeonardo Ward" (at 160.02 73.66) (layer "F.SilkS") (tstamp fac7ef4b-e76f-44ee-b6a0-75eab8ebe91b)
     (effects (font (size 2 2) (thickness 0.3)))
   )
 

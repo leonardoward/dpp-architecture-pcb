@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/dpp-architecture.kicad_sch</source>
+    <date>sáb 30 abr 2022 14:33:21</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DPP Architecture for an MPPT design - Leonardo Ward</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2022-04-30</date>
+        <source>dpp-architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2200</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>https://www.cde.com/resources/catalogs/CKR_CKS.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cornell Dubilier / Illinois Capacitor</field>
+        <field name="Manufacturer_Part_Number">228CKS050MQW</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">228CKS050MQW-ND</field>
+        <field name="Supplier Part Number 2">598-228CKS050MQW</field>
+      </fields>
+      <libsource lib="C-2200uF-50V-20%" part="2200" description="50V 20% Aluminum Electrolytic Capacitors Radial, Can 106mOhm @ 120Hz 2000 Hrs @ 85°C"/>
+      <property name="Manufacturer_Name" value="Cornell Dubilier / Illinois Capacitor"/>
+      <property name="Manufacturer_Part_Number" value="228CKS050MQW"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="228CKS050MQW-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="598-228CKS050MQW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>111ecfef-b841-4c33-83b1-ced61122eb80</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KAFNNNE.jsp</datasheet>
+      <fields>
+        <field name="LCSC">C116352</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21B105KAFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">1276-1066-1-ND</field>
+        <field name="Supplier Part Number 2">187-CL21B105KAFNNNE</field>
+      </fields>
+      <libsource lib="C-1uF-0805" part="1uF" description="1 µF ±10% 10V X7R 0805 (2012 Metric) Ceramic Capacitor"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part Number" value="CL21B105KAFNNNE"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="1276-1066-1-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="187-CL21B105KAFNNNE"/>
+      <property name="LCSC" value="C116352"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95212bc1-c9cf-4a3d-abb6-e9e8d30a4440</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer_Part_Number">08051A470JAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">478-1282-1-ND</field>
+        <field name="Supplier Part Number 2">581-08051A470J</field>
+      </fields>
+      <libsource lib="C-47pF-0805-100V-5%" part="47pF" description="100V 0805 ±5% Ceramic Capacitor C0G, NP0 (2012 Metric)"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer_Part_Number" value="08051A470JAT2A"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="478-1282-1-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="581-08051A470J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff226b7d-517a-457f-b3b6-acb40eb68c03</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2200</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <datasheet>https://www.cde.com/resources/catalogs/CKR_CKS.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Cornell Dubilier / Illinois Capacitor</field>
+        <field name="Manufacturer_Part_Number">228CKS050MQW</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">228CKS050MQW-ND</field>
+        <field name="Supplier Part Number 2">598-228CKS050MQW</field>
+      </fields>
+      <libsource lib="C-2200uF-50V-20%" part="2200" description="50V 20% Aluminum Electrolytic Capacitors Radial, Can 106mOhm @ 120Hz 2000 Hrs @ 85°C"/>
+      <property name="Manufacturer_Name" value="Cornell Dubilier / Illinois Capacitor"/>
+      <property name="Manufacturer_Part_Number" value="228CKS050MQW"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="228CKS050MQW-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="598-228CKS050MQW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45ca4b47-630d-46ad-b277-2b38d7e5394d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C83528</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">1N4148W-7-F</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">1N4148W-FDICT-ND</field>
+        <field name="Supplier Part Number 2">621-1N4148W-F</field>
+      </fields>
+      <libsource lib="D-1N4148W-7-F" part="1N4148W-7-F" description=""/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="1N4148W-7-F"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="1N4148W-FDICT-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="621-1N4148W-F"/>
+      <property name="LCSC" value="C83528"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc49fe71-0c59-45d9-87ca-06e01e622128</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C83528</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">1N4148W-7-F</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">1N4148W-FDICT-ND</field>
+        <field name="Supplier Part Number 2">621-1N4148W-F</field>
+      </fields>
+      <libsource lib="D-1N4148W-7-F" part="1N4148W-7-F" description=""/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="1N4148W-7-F"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="1N4148W-FDICT-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="621-1N4148W-F"/>
+      <property name="LCSC" value="C83528"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61e0e4e2-3264-41e0-a625-b6b3f8c80ecd</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38012d87-5818-4fea-be4e-2c3aaa295f42</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abf120e4-0928-452f-9be5-19a7cbfc9291</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78962f27-8808-4cbb-95e3-cf02c2c770b4</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>863c93d0-00cc-4083-b5a1-817dda887c41</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OSTYK51102030</value>
+      <footprint>J-OSTYK51102030:OSTYK51102030</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN BARRIER STRIP 2CIRC 0.374"</field>
+        <field name="Height">18.5</field>
+        <field name="Manufacturer_Name">On Shore Technology Inc.</field>
+        <field name="Manufacturer_Part_Number">OSTYK51102030</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">ED2953-ND</field>
+      </fields>
+      <libsource lib="J-OSTYK51102030" part="OSTYK51102030" description="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Description" value="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Height" value="18.5"/>
+      <property name="Manufacturer_Name" value="On Shore Technology Inc."/>
+      <property name="Manufacturer_Part_Number" value="OSTYK51102030"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="ED2953-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cee01095-9ede-4666-b4cc-3846a315c006</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>OSTYK51102030</value>
+      <footprint>J-OSTYK51102030:OSTYK51102030</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN BARRIER STRIP 2CIRC 0.374"</field>
+        <field name="Height">18.5</field>
+        <field name="Manufacturer_Name">On Shore Technology Inc.</field>
+        <field name="Manufacturer_Part_Number">OSTYK51102030</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">ED2953-ND</field>
+      </fields>
+      <libsource lib="J-OSTYK51102030" part="OSTYK51102030" description="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Description" value="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Height" value="18.5"/>
+      <property name="Manufacturer_Name" value="On Shore Technology Inc."/>
+      <property name="Manufacturer_Part_Number" value="OSTYK51102030"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="ED2953-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55e2a534-d3c1-42d9-aa0d-f9251f4677f4</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48aeb626-4b56-4bae-89a1-4ccd9084d87d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>OSTYK51102030</value>
+      <footprint>J-OSTYK51102030:OSTYK51102030</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN BARRIER STRIP 2CIRC 0.374"</field>
+        <field name="Height">18.5</field>
+        <field name="Manufacturer_Name">On Shore Technology Inc.</field>
+        <field name="Manufacturer_Part_Number">OSTYK51102030</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">ED2953-ND</field>
+      </fields>
+      <libsource lib="J-OSTYK51102030" part="OSTYK51102030" description="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Description" value="CONN BARRIER STRIP 2CIRC 0.374&quot;"/>
+      <property name="Height" value="18.5"/>
+      <property name="Manufacturer_Name" value="On Shore Technology Inc."/>
+      <property name="Manufacturer_Part_Number" value="OSTYK51102030"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="ED2953-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe91570a-6766-4135-b051-5e2d01a398ee</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFU120NPBF</value>
+      <footprint>Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irfr120npbf.pdf?fileId=5546d462533600a40153562d2620204d</datasheet>
+      <fields>
+        <field name="LCSC">C3025</field>
+        <field name="Manufacturer_Name">Infineon Technologies</field>
+        <field name="Manufacturer_Part_Number">IRFU120NPBF</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">IRFU120NPBF-ND</field>
+        <field name="Supplier Part Number 2">942-IRFU120NPBF</field>
+      </fields>
+      <libsource lib="Q-IRFU120NPBF" part="IRFU120NPBF" description="N-Channel 100 V 9.4A (Tc) 48W (Tc) Through Hole IPAK (TO-251AA)"/>
+      <property name="Manufacturer_Name" value="Infineon Technologies"/>
+      <property name="Manufacturer_Part_Number" value="IRFU120NPBF"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="IRFU120NPBF-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="942-IRFU120NPBF"/>
+      <property name="LCSC" value="C3025"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c9d892-2ccc-4a47-9cad-6f343bb0f5e4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT1K00</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FT1K00CT-ND</field>
+      </fields>
+      <libsource lib="R-1K-0805" part="1K" description="1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="Manufacturer_Part_Number" value="RMCF0805FT1K00"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="RMCF0805FT1K00CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eee4c1cb-8990-4764-a4c9-bd53a171536e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FG100K</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FG100KCT-ND</field>
+      </fields>
+      <libsource lib="R-100K-0805" part="100k" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="RMCF0805FG100KCT-ND"/>
+      <property name="Manufacturer_Name" value="Stackpole Electronics Inc"/>
+      <property name="Manufacturer_Part_Number" value="RMCF0805FG100K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7d0fdf8-e0e2-4f49-80e1-7d76dd694bd5</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805JR-070RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0ARCT-ND</field>
+      </fields>
+      <libsource lib="R-0-0805" part="0" description="Jumper 0.125W 0805 (2012 Metric) Chip Resistor Moisture Resistant Thick Film"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="311-0.0ARCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-070RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddd4179e-28d9-4e4f-a7b7-ee4bf887dd8a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805JR-070RL</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0ARCT-ND</field>
+      </fields>
+      <libsource lib="R-0-0805" part="0" description="Jumper 0.125W 0805 (2012 Metric) Chip Resistor Moisture Resistant Thick Film"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="311-0.0ARCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="RC0805JR-070RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>964badd5-3a8d-4af7-b150-cd8da1d0a654</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>750311659</value>
+      <footprint>T-750311659:750311659</footprint>
+      <datasheet>https://katalog.we-online.de/ctm/datasheet/750311659.pdf</datasheet>
+      <fields>
+        <field name="Description">Power Transformers MID-L8300 LT Flyback Isol .3mH 5V .08A</field>
+        <field name="Height">10.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">750311659</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 1">1297-1126-1-ND</field>
+        <field name="Supplier Part Number 2">710-750311659</field>
+      </fields>
+      <libsource lib="T-750311659" part="750311659" description="Power Transformers MID-L8300 LT Flyback Isol .3mH 5V .08A"/>
+      <property name="Description" value="Power Transformers MID-L8300 LT Flyback Isol .3mH 5V .08A"/>
+      <property name="Height" value="10.54"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="750311659"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="1297-1126-1-ND"/>
+      <property name="Supplier 2" value="Mouser"/>
+      <property name="Supplier Part Number 2" value="710-750311659"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0153dfb9-28e9-4c58-a8ec-46e79b9f2176</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DGD0215WT-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DGD0215-0216.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">DGD0215WT-7</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">DGD0215WT-7DICT-ND</field>
+      </fields>
+      <libsource lib="U-DGD0215WT-7" part="DGD0215WT-7" description="Low-Side Gate Driver IC Inverting, Non-Inverting TSOT-25 (Type TH)"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="DGD0215WT-7"/>
+      <property name="Supplier 1" value="Digi-Key"/>
+      <property name="Supplier Part Number 1" value="DGD0215WT-7DICT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dpp-architecture.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506a6ca4-f995-482c-b3f4-83ce63a96730</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="C-1uF-0805" part="1uF">
+      <description>1 µF ±10% 10V X7R 0805 (2012 Metric) Ceramic Capacitor</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KAFNNNE.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KAFNNNE.jsp</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part Number">CL21B105KAFNNNE</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1276-1066-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">187-CL21B105KAFNNNE</field>
+        <field name="LCSC">C116352</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-2200uF-50V-20%" part="2200">
+      <description>50V 20% Aluminum Electrolytic Capacitors Radial, Can 106mOhm @ 120Hz 2000 Hrs @ 85°C</description>
+      <docs>https://www.cde.com/resources/catalogs/CKR_CKS.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2200</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet">https://www.cde.com/resources/catalogs/CKR_CKS.pdf</field>
+        <field name="Manufacturer_Name">Cornell Dubilier / Illinois Capacitor</field>
+        <field name="Manufacturer_Part_Number">228CKS050MQW</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">228CKS050MQW-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">598-228CKS050MQW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-47pF-0805-100V-5%" part="47pF">
+      <description>100V 0805 ±5% Ceramic Capacitor C0G, NP0 (2012 Metric)</description>
+      <docs>https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer_Part_Number">08051A470JAT2A</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">478-1282-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">581-08051A470J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="D-1N4148W-7-F" part="1N4148W-7-F">
+      <docs>https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">1N4148W-7-F</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1N4148W-FDICT-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">621-1N4148W-F</field>
+        <field name="LCSC">C83528</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J-OSTYK51102030" part="OSTYK51102030">
+      <description>CONN BARRIER STRIP 2CIRC 0.374"</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTYK51102030</field>
+        <field name="Footprint">J-OSTYK51102030:OSTYK51102030</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1525676.pdf</field>
+        <field name="Description">CONN BARRIER STRIP 2CIRC 0.374"</field>
+        <field name="Height">18.5</field>
+        <field name="Manufacturer_Name">On Shore Technology Inc.</field>
+        <field name="Manufacturer_Part_Number">OSTYK51102030</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">ED2953-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Q-IRFU120NPBF" part="IRFU120NPBF">
+      <description>N-Channel 100 V 9.4A (Tc) 48W (Tc) Through Hole IPAK (TO-251AA)</description>
+      <docs>https://www.infineon.com/dgdl/irfr120npbf.pdf?fileId=5546d462533600a40153562d2620204d</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRFU120NPBF</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irfr120npbf.pdf?fileId=5546d462533600a40153562d2620204d</field>
+        <field name="Manufacturer_Name">Infineon Technologies</field>
+        <field name="Manufacturer_Part_Number">IRFU120NPBF</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">IRFU120NPBF-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">942-IRFU120NPBF</field>
+        <field name="LCSC">C3025</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-0-0805" part="0">
+      <description>Jumper 0.125W 0805 (2012 Metric) Chip Resistor Moisture Resistant Thick Film</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">311-0.0ARCT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">RC0805JR-070RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-100K-0805" part="100k">
+      <description>100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FG100KCT-ND</field>
+        <field name="Manufacturer_Name">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FG100K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-1K-0805" part="1K">
+      <description>1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Manufacturer_Part_Number">RMCF0805FT1K00</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">RMCF0805FT1K00CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="T-750311659" part="750311659">
+      <description>Power Transformers MID-L8300 LT Flyback Isol .3mH 5V .08A</description>
+      <docs>https://katalog.we-online.de/ctm/datasheet/750311659.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">750311659</field>
+        <field name="Footprint">T-750311659:750311659</field>
+        <field name="Datasheet">https://katalog.we-online.de/ctm/datasheet/750311659.pdf</field>
+        <field name="Description">Power Transformers MID-L8300 LT Flyback Isol .3mH 5V .08A</field>
+        <field name="Height">10.54</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">750311659</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">1297-1126-1-ND</field>
+        <field name="Supplier 2">Mouser</field>
+        <field name="Supplier Part Number 2">710-750311659</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AUX_1" type="passive"/>
+        <pin num="2" name="AUX_2" type="passive"/>
+        <pin num="3" name="PRI_1" type="passive"/>
+        <pin num="4" name="PRI_2" type="passive"/>
+        <pin num="5" name="SEC_1" type="passive"/>
+        <pin num="6" name="SEC_2" type="passive"/>
+        <pin num="7" name="SEC_3" type="passive"/>
+        <pin num="8" name="SEC_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="U-DGD0215WT-7" part="DGD0215WT-7">
+      <description>Low-Side Gate Driver IC Inverting, Non-Inverting TSOT-25 (Type TH)</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DGD0215-0216.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DGD0215WT-7</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5_HandSoldering</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DGD0215-0216.pdf</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">DGD0215WT-7</field>
+        <field name="Supplier 1">Digi-Key</field>
+        <field name="Supplier Part Number 1">DGD0215WT-7DICT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN*" type="passive"/>
+        <pin num="2" name="COM" type="passive"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="OUT*" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="C-1uF-0805">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/C-1uF-0805.kicad_sym</uri>
+    </library>
+    <library logical="C-2200uF-50V-20%">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/C-2200uF-50V-20%.kicad_sym</uri>
+    </library>
+    <library logical="C-47pF-0805-100V-5%">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/C-47pF-0805-100V-5%.kicad_sym</uri>
+    </library>
+    <library logical="D-1N4148W-7-F">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/D-1N4148W-7-F.kicad_sym</uri>
+    </library>
+    <library logical="J-OSTYK51102030">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/J-OSTYK51102030.kicad_sym</uri>
+    </library>
+    <library logical="Q-IRFU120NPBF">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/Q-IRFU120NPBF.kicad_sym</uri>
+    </library>
+    <library logical="R-0-0805">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/R-0-0805.kicad_sym</uri>
+    </library>
+    <library logical="R-100K-0805">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/R-100K-0805.kicad_sym</uri>
+    </library>
+    <library logical="R-1K-0805">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/R-1K-0805.kicad_sym</uri>
+    </library>
+    <library logical="T-750311659">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/T-750311659.kicad_sym</uri>
+    </library>
+    <library logical="U-DGD0215WT-7">
+      <uri>/home/leonardow/Documents/dpp-architecture-pcb/dpp-architecture/Symbols/U-DGD0215WT-7.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="PRI_2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="T1" pin="6" pinfunction="SEC_2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="T1" pin="7" pinfunction="SEC_3" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="D" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="PRI_1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN*" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OUT*" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="T1" pin="5" pinfunction="SEC_1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="T1" pin="8" pinfunction="SEC_4" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(T1-Pad1)">
+      <node ref="T1" pin="1" pinfunction="AUX_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(T1-Pad2)">
+      <node ref="T1" pin="2" pinfunction="AUX_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="IN" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
